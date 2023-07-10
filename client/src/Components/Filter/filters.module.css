@@ -1,0 +1,83 @@
+.filterContainer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.restartButton {
+    background-color: #c54343;
+    margin: 5px;
+    border: none;
+    padding: 2px 10px;
+    border-radius: 4px;
+    color: #efefef;
+    cursor: pointer;
+
+}
+/* .restartButton:hover {
+    margin: 5px;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+} */
+.filterGames {
+    background-color: #efefef;
+    margin: 5px;
+    border: none;
+    padding: 2px 15px;
+    border-radius: 4px;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+
+}
+/* .filterGames option:hover {
+    background-color: #efefef;
+    color: #2f3237;
+} */
+/* .filterGames:hover {
+    background-color: #efefef;
+    color: #2f3237;
+    cursor: pointer;
+} */
+.filterVocal {
+    background-color: #efefef;
+    margin: 5px;
+    border: none;
+    padding: 2px 15px;
+    border-radius: 4px;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+
+}
+/* .filterVocal:hover {
+    cursor: pointer;
+} */
+.filterRating {
+    background-color: #efefef;
+    margin: 5px;
+    border: none;
+    padding: 2px 15px;
+    border-radius: 4px;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+
+}
+/* .filterRating:hover {
+    cursor: pointer;
+} */
+.filterGenres {
+    background-color: #efefef;
+    margin: 5px;
+    border: none;
+    padding: 2px 10px;
+    border-radius: 4px;
+    appearance: none;
+    width: 90px;
+    outline: none;
+    cursor: pointer;
+
+}

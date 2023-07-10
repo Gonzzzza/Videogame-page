@@ -1,0 +1,32 @@
+.navContainer {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ulPaginate {
+    /* padding: 15px; */
+    /* background-color: azure; */
+    /* border-radius: 50px; */
+}
+.buttonPaginate {
+    border: none;
+    border-radius: 3px;
+    margin: 2px;
+    width: 22px;
+    height: 20px;
+    /* color: #efefef; */
+    /* background-color: aqua; */
+    /* border: 1px solid #efefef; */
+    /* border-radius: 15px; */
+    /* font-size: medium; */
+    /* background-color: #2f3237; */
+    /* padding: 2px 8px; */
+}
+.buttonPaginate:hover {
+    cursor: pointer;
+}
+.activo {
+    background-color: rgb(41, 41, 41);
+    color: #efefef;
+}

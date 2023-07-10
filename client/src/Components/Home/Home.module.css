@@ -1,0 +1,47 @@
+.container {
+    height: 100%;
+}
+.firstLineContainer {
+    /* margin-left: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 100px; */
+    /* margin-right: 20px;     */
+}
+.containerFilters {
+    position: relative;
+    top: 10px;
+    width: 700px;
+    background-color: transparent;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.containerPaginate {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 50px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerGames {
+    /* border-radius: 5px; */
+    /* padding: 25px; */
+    /* background-color: transparent; */
+    margin: 15px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+    text-align: center;
+    /* margin-top: 15px; */
+    /* place-items: center; */
+    /* text-decoration: none; */
+}
+.linkGameContainer {
+    text-decoration: none;
+}

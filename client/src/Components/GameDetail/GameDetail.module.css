@@ -1,0 +1,114 @@
+/* .containerGame {
+}
+.containerTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    color: #2f3237;
+}
+.containerImage {
+    display: block;
+    align-items: center;
+}
+.image {
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    margin-bottom: 15px;
+}
+.containerDate {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px 0;
+    border-radius: 20px;
+    text-align: center;
+}
+.rating {
+    padding-bottom: 15px;    
+}
+.description {
+} */
+
+.containerGeneral {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.buttonBack {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 18px;
+}
+.buttonBack button {
+    background-color: #efefef;
+    margin: 5px;
+    border: none;
+    padding: 2px 15px;
+    border-radius: 4px;
+}
+.buttonBack button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.containerTitle {
+    /* width: 100%; */
+    /* background-color: aqua; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.containerGame {
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px 15px;
+    text-align: center;
+}
+.containerSection {
+
+    /* display: grid; */
+    /* grid-template-rows: 1; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.containerImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    /* background-color: blue; */
+    width: 100%;
+    /* height: 300px; */
+}
+.containerDates {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    flex: 1;
+    text-align: center;    
+}
+.title {
+    margin: 5px;
+    margin-bottom: 8px;
+}
+.containerParagraphs{
+    background-color: #efefef;
+    border-radius: 15px;
+    padding: 15px;
+}
+img {
+    border-radius: 15px;
+    width: 100%;
+    /* width: 250px; */
+}

@@ -1,0 +1,181 @@
+.container {
+    width: 100%;
+    height: 60px;
+    background-color: white ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.2);
+    /* flex-direction: row; */
+    /* background-color: aqua; */
+}
+.contenedor1 {
+    grid-column: 1;
+    display: flex;
+    /* margin-left: 250px; */
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor2 {
+    /* background-color: aqua; */
+    /* margin-right: 250px; */
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonHome button{
+    margin: 15px;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    /* box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); */
+}
+.buttonHome button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.buttonCreate button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.buttonCreate button {
+    margin: 15px;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    /* box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); */
+}
+
+.container .contenedor1 img {
+    display: flex;
+    /* align-items: center; */
+    background-color: transparent;
+    width: 70px;
+    box-sizing: border-box;
+    
+    /* background-color: #2f3237; */
+    /* height: 70px; */
+}
+.container .contenedor1 img:hover {
+    background-color: #212326;
+}
+
+.container .buttonSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    /* background-color: aqua; */
+}
+.container .buttonSearchOpen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    /* background-color: aqua; */
+}
+
+/* ========== LOGO SEARCH =========== */
+.container .logosearch {
+    color: aliceblue;
+    font-size: 22px;
+}
+
+/* ========== LOGO SEARCH OPEN =========== */
+.container .logoSearchOpen {
+    color:#2f3237;
+    font-size: 22px;
+}
+
+/* ========== BOTON SEARCH OPEN ====== */
+.container .buttonSearchOpen {
+    cursor: pointer;
+    background-color: #efefef;
+    /* padding: 9px 9px; */
+}
+
+
+/* ========== BOTON SEARCH CLOSE ====== */
+.container .buttonSearch:hover {
+    cursor: pointer;
+    background-color: #212326;
+}
+
+
+.container .searchbar {
+    /* gap: 50px; */
+    /* background-color: aqua; */
+    padding: 15px 18px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 70px;
+    left: -100%;
+    width: 40%;
+    height: 110%;
+    background-color: #efefef;
+    transition: all 0.5s ease-in-out;
+    z-index: 10;
+}
+
+.container .open {
+    left: 0;
+}
+/* ========================= CONTAINER USER ===================== */
+.container .containeruser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    /* background-color: #efefef; */
+    margin-right: 0px;
+    width: 70px;
+}
+
+.container .containeruser .logoUser {
+    color: #efefef;
+    font-size: 35px;
+}
+.container .containeruser:hover  {
+    cursor: pointer;
+    background-color: #212326;
+}
+
+/* ============== CONTENEDOR DE GENEROS =========== */
+.container .genrescontainer {
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+    gap:  10px;
+    width: 100%;
+    /* height: 100%; */
+    background-color: #efefef;
+}
+.container .genrescontainer .genres {
+    text-align: left;
+    border: none;
+    background-color: #efefef;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 2px 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.container .genrescontainer .genres:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+/* ================================= RESPONSIVE =========================== */
+@media screen and (max-width: 768px) {  
+    .container .searchbar {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .container .genrescontainer {
+        gap: 15px;
+    }
+}
+/* ================================= RESPONSIVE =========================== */
