@@ -50,7 +50,7 @@ export function getDetail(id){
     // console.log("hola", id)
     return async function (dispatch){
         try {
-            const json = await axios.get('http://localhost:3001/videogame/' + id)
+            const json = await axios.get('/videogame/' + id)
             const game = json.data;
             dispatch({
                 type: GET_DETAILS,
