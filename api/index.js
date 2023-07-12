@@ -1,5 +1,5 @@
-const server = require('./src/app.js');
-const { conn } = require('./src/db.js');
+const server = require('./App/src/app.js');
+const { conn } = require('./App/src/db.js');
 require('dotenv').config();
 // const getGenres = require('./src/Controllers/getGenres')
 // Syncing all the models at once.
