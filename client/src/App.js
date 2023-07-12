@@ -5,7 +5,7 @@ import CreateVideogame from './Components/CreateVideogame/CreateVideogame';
 import GameDetail from './Components/GameDetail/GameDetail';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:3001/';
+axios.defaults.baseURL = 'https://videogame-page-production.up.railway.app/';
 
 function App() {
   return (
